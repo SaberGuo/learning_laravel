@@ -19,6 +19,7 @@
             </div>
         </header>
         <div class="container">
+          @include('shared.messages')
         @yield('content')
         </div>
     </body>
